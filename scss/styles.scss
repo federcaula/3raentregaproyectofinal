@@ -1,0 +1,83 @@
+
+@import "utilities/variables";
+
+
+header{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    align-content: center;
+    background-color: $color-header;
+    .logo{
+            display: flex;
+            margin-left: 15px;
+            margin-right: 55px; 
+    }
+    nav{
+            display: flex;
+            justify-content: center;
+            padding-right: 20px;
+            font-weight: bold;
+    }
+}
+
+main{
+    h1{
+        text-align: center;
+        background-color: $color-main;
+        padding: 30px;
+        color: rgb(49, 43, 43);
+    }
+    
+}
+
+section{
+    
+    background-color: $color-section;   
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+}
+
+.somos{
+    background-color: $color-main;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ 
+.vision{
+    background-color: $color-header;
+    display: flex;
+}
+
+.prod.index{
+    background-color: $color-header;
+}
+
+.video{
+    background-color: $color-main;
+}
+
+.blog-noticias{
+    padding:30px;
+    background-color: azure;
+    column-gap: 30px;
+    row-gap: 30px;
+    display: flexbox;
+}
+
+
+footer{
+    background-color: $color-footer;
+    text-align: center;
+    justify-content: center;
+    color: blanchedalmond;
+    padding-top: 30px;
+
+}
+
+
+
+

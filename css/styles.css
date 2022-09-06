@@ -1,0 +1,58 @@
+header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 70px;
+  align-content: center;
+  background-color: white; }
+  header .logo {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 55px; }
+  header nav {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    font-weight: bold; }
+
+main h1 {
+  text-align: center;
+  background-color: #b8d8ba;
+  padding: 30px;
+  color: #312b2b; }
+
+section {
+  background-color: #f8e3e7;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  list-style: none; }
+
+.somos {
+  background-color: #b8d8ba;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.vision {
+  background-color: white;
+  display: flex; }
+
+.prod.index {
+  background-color: white; }
+
+.video {
+  background-color: #b8d8ba; }
+
+.blog-noticias {
+  padding: 30px;
+  background-color: azure;
+  column-gap: 30px;
+  row-gap: 30px;
+  display: flexbox; }
+
+footer {
+  background-color: #69585F;
+  text-align: center;
+  justify-content: center;
+  color: blanchedalmond;
+  padding-top: 30px; }
