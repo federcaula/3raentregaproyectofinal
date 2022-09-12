@@ -54,6 +54,7 @@ section{
 
 .prod.index{
     background-color: $color-header;
+    display: inline;
 }
 
 .video{
@@ -65,7 +66,11 @@ section{
     background-color: azure;
     column-gap: 30px;
     row-gap: 30px;
-    display: flexbox;
+    display: grid;
+}
+section .secos{
+    background-color: $color-header;
+
 }
 
 
