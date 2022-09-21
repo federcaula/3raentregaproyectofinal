@@ -133,6 +133,43 @@ footer{
 .vid-titulo{
     grid-area: vid-titulo;
 }
+
+
+@media (min-width:640px) and (max-width:840px){
+    .video{
+        display: flex;
+        flex-direction: column;
+    }
+    .video-index{
+        width: 450px;   
+    }
+  
+}
+
+@media(max-width:640px){
+    .video{
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+    }
+    .video-index{
+        width: 300px;   
+    } 
+    .cereales-index{
+        padding: 0%;
+        margin: 3%;
+        justify-content: center;
+        align-content: center;
+    }
+    .frutas-index{
+        padding: 0%;
+        margin: 3%;
+        justify-content: center;
+        align-content: center;
+    }  
+}
+
+
 //estilos particulares de productos
 
 //estilos particulares de blog
@@ -141,6 +178,7 @@ footer{
     padding:30px;
     background-image: url(../img/fondo1.png);
     display: grid;
+    text-align: center;
     grid-template-columns: 50% 50%;
         grid-template-rows: 30% 70%;
         grid-template-areas: 
@@ -161,11 +199,6 @@ footer{
     grid-area: vid-4;
 }
 
-
-
-
-
-
 .trucos{
     margin: 20px;
     padding: 10px;
@@ -183,6 +216,54 @@ footer{
     padding: 30px;
     background-color:  rgb(245, 225, 210);
 }
+
+@media(max-width:640px){
+    .blog-noticias{
+        display: flex;
+        flex-direction: column;
+    }
+    .vid-2{
+        width: 300px;
+        margin-bottom: 60px;
+    }
+    .vid-4{
+        width: 300px;
+    }
+    .verano{
+        width: 90%;
+        .imagen-verano{
+            display: none;
+            }
+    }
+    .trucos{
+        width: 90%;
+        .imagen-trucos{
+            display: none;
+            }
+    }
+    .antiflamatorio{
+        width: 90%;
+        .imagen-antiflamatorio{
+            display: none;
+            }
+    }
+    }
+
+    @media (min-width:640px) and (max-width:840px){
+        .blog-noticias{
+            display: flex;
+            flex-direction: column;
+        }
+        .vid-2{
+            width: 450px;
+            margin-bottom: 60px;
+        }
+        .vid-4{
+            width: 450px;
+        }
+
+    }
+
 
 section article{
     margin: 5px;
