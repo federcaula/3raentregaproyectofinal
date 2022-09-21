@@ -69,7 +69,7 @@ footer{
     margin-top: 15px;
     padding: 35px;
     color: rgb(19, 38, 19);
-    background-image: url(/img/fondo2.jpg);
+    background-image: url(../img/fondo2.jpg);
     
 }
  
@@ -104,7 +104,7 @@ footer{
 .video{
     display: grid;
     height: 95%;
-    background-image: url(/img/fondo1.png);
+    background-image: url(../img/fondo1.png);
     text-align: center;
     justify-content: center;
     align-content: center;
@@ -137,6 +137,71 @@ footer{
 
 //estilos particulares de blog
 
+.blog-noticias{
+    padding:30px;
+    background-image: url(../img/fondo1.png);
+    display: grid;
+    grid-template-columns: 50% 50%;
+        grid-template-rows: 30% 70%;
+        grid-template-areas: 
+                            "vid-titulo2 vid-titulo4"
+                            "vid-2 vid-4";
+}
+
+.vid-titulo2{
+    grid-area: vid-titulo2;
+}
+.vid-titulo4{
+    grid-area: vid-titulo4;
+}
+.vid-2{
+    grid-area: vid-2;
+}
+.vid-4{
+    grid-area: vid-4;
+}
+
+
+
+
+
+
+.trucos{
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(245, 212, 209)
+}
+
+.verano{
+    margin: 20px;
+    padding: 10px;
+    background-color:rgb(242, 253, 253);
+}
+
+.antiflamatorio{
+    margin: 20px;
+    padding: 30px;
+    background-color:  rgb(245, 225, 210);
+}
+
+section article{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    .articulo1{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas: 
+                            "imagen-blog1 blog-parrafo1"
+                            "imagen-blog1 blog-parrafo1";
+        gap: 10px;
+        
+
+    }
+
+}
+
 //estilos particulares de comocomprar
 
 //estilos particulares de contacto
@@ -156,11 +221,7 @@ footer{
     background-color: $color-main;
 }
 
-.blog-noticias{
-    padding:30px;
-    background-color: azure;
-    display: grid;
-}
+
 
 
 
@@ -171,10 +232,3 @@ section .secos{
 
 
 
-section article{
-    margin: 30px;
-    text-align: start;
-    display: flexbox;
-
-
-}

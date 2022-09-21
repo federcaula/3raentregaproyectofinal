@@ -47,7 +47,7 @@ footer {
   margin-top: 15px;
   padding: 35px;
   color: #132613;
-  background-image: url(/img/fondo2.jpg); }
+  background-image: url(../img/fondo2.jpg); }
 
 .vision {
   background-color: white;
@@ -78,7 +78,7 @@ footer {
 .video {
   display: grid;
   height: 95%;
-  background-image: url(/img/fondo1.png);
+  background-image: url(../img/fondo1.png);
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -101,6 +101,52 @@ footer {
 .vid-titulo {
   grid-area: vid-titulo; }
 
+.blog-noticias {
+  padding: 30px;
+  background-image: url(../img/fondo1.png);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: "vid-titulo2 vid-titulo4" "vid-2 vid-4"; }
+
+.vid-titulo2 {
+  grid-area: vid-titulo2; }
+
+.vid-titulo4 {
+  grid-area: vid-titulo4; }
+
+.vid-2 {
+  grid-area: vid-2; }
+
+.vid-4 {
+  grid-area: vid-4; }
+
+.trucos {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f5d4d1; }
+
+.verano {
+  margin: 20px;
+  padding: 10px;
+  background-color: #f2fdfd; }
+
+.antiflamatorio {
+  margin: 20px;
+  padding: 30px;
+  background-color: #f5e1d2; }
+
+section article {
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  display: grid; }
+  section article .articulo1 {
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "imagen-blog1 blog-parrafo1" "imagen-blog1 blog-parrafo1";
+    gap: 10px; }
+
 .prod.index {
   background-color: white;
   display: inline; }
@@ -108,15 +154,5 @@ footer {
 .video {
   background-color: #b8d8ba; }
 
-.blog-noticias {
-  padding: 30px;
-  background-color: azure;
-  display: grid; }
-
 section .secos {
   background-color: white; }
-
-section article {
-  margin: 30px;
-  text-align: start;
-  display: flexbox; }
