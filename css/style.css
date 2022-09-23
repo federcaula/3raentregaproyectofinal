@@ -49,10 +49,10 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center; }
-    footer .grupo-1 .box2 {
+    footer .grupo-1 .box-2 {
       color: whitesmoke;
       text-align: center; }
-      footer .grupo-1 .box2 p {
+      footer .grupo-1 .box-2 p {
         color: black;
         font-weight: bolder; }
     footer .grupo-1 .box3 {
