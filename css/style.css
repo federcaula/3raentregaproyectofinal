@@ -34,11 +34,61 @@ section {
   list-style: none; }
 
 footer {
-  background-color: #69585F;
-  text-align: center;
-  justify-content: center;
-  color: blanchedalmond;
-  padding-top: 30px; }
+  width: 100%;
+  margin-top: 30px;
+  background-image: url(../img/fondo5.jpg); }
+  footer .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 0.8fr 1fr;
+    padding: 20px;
+    grid-gap: 50px; }
+    footer .grupo-1 .box1 {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    footer .grupo-1 .box2 {
+      color: whitesmoke;
+      text-align: center; }
+      footer .grupo-1 .box2 p {
+        color: black;
+        font-weight: bolder; }
+    footer .grupo-1 .box3 {
+      text-align: center;
+      color: whitesmoke; }
+    footer .grupo-1 .box-4 {
+      text-align: center;
+      color: whitesmoke; }
+  footer .grupo2 {
+    background-color: #6c4078;
+    text-align: center;
+    color: white;
+    padding: 5px; }
+
+@media (min-width: 640px) and (max-width: 840px) {
+  .pie-pagina .grupo-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 15px; }
+    .pie-pagina .grupo-1 .box-4 {
+      display: none; } }
+
+@media (max-width: 640px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    margin: 15px; }
+    .pie-pagina .grupo-1 .box-4 {
+      display: none; } }
 
 .simple {
   display: flex;
@@ -48,10 +98,6 @@ footer {
   padding: 35px;
   color: #132613;
   background-image: url(../img/fondo2.jpg); }
-
-.vision {
-  background-color: white;
-  display: flex; }
 
 .frutas-index {
   display: grid;
@@ -193,17 +239,6 @@ footer {
     margin-bottom: 60px; }
   .vid-4 {
     width: 450px; } }
-
-section article {
-  margin: 5px;
-  padding: 10px;
-  text-align: center;
-  display: grid; }
-  section article .articulo1 {
-    grid-template-columns: 30% 70%;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: "imagen-blog1 blog-parrafo1" "imagen-blog1 blog-parrafo1";
-    gap: 10px; }
 
 .prod.index {
   background-color: white;

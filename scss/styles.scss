@@ -52,15 +52,83 @@ section{
 }
 
 
+
+
 footer{
-    background-color: $color-footer;
-    text-align: center;
-    justify-content: center;
-    color: blanchedalmond;
-    padding-top: 30px;
+    width: 100%;
+    margin-top: 30px;
+    background-image: url(../img/fondo5.jpg);
+    .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1.2fr 0.8fr 1fr;
+        padding: 20px;
+        grid-gap:50px;
+        .box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2{
+            color: whitesmoke;
+            text-align: center;
+            p{
+                color: black;
+                font-weight: bolder;
+            }
+        }
+        .box3{
+            text-align: center;
+            color: whitesmoke;
+
+        }
+        .box-4{
+            text-align: center;
+            color: whitesmoke;
+
+        }
+    }
+
+    .grupo2{
+        background-color: rgb(108, 64, 120);
+        text-align: center;
+        color: white;
+        padding: 5px;
+    }    
 
 }
 
+@media (min-width:640px) and (max-width:840px){
+    .pie-pagina .grupo-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        margin: 15px;
+        .box-4{
+            display: none;
+        }
+    }
+    
+}
+
+@media(max-width:640px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        margin: 15px;
+        .box-4{
+            display: none;
+        }
+    }
+}
 //estilos particulares del index
 .simple{
     display: flex;
@@ -73,10 +141,7 @@ footer{
     
 }
  
-.vision{
-    background-color: $color-header;
-    display: flex;
-}
+
 
 .frutas-index{
     display: grid;
@@ -265,23 +330,7 @@ footer{
     }
 
 
-section article{
-    margin: 5px;
-    padding: 10px;
-    text-align: center;
-    display: grid;
-    .articulo1{
-        grid-template-columns: 30% 70%;
-        grid-template-rows: 50% 50%;
-        grid-template-areas: 
-                            "imagen-blog1 blog-parrafo1"
-                            "imagen-blog1 blog-parrafo1";
-        gap: 10px;
-        
 
-    }
-
-}
 
 //estilos particulares de comocomprar
 
