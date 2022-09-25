@@ -1,3 +1,9 @@
+footer .grupo-1 .box1, .simple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -45,10 +51,6 @@ footer {
     grid-template-columns: 1fr 1.2fr 0.8fr 1fr;
     padding: 20px;
     grid-gap: 50px; }
-    footer .grupo-1 .box1 {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
     footer .grupo-1 .box-2 {
       color: whitesmoke;
       text-align: center; }
@@ -67,7 +69,7 @@ footer {
     color: white;
     padding: 5px; }
 
-@media (min-width: 640px) and (max-width: 840px) {
+@media (min-width: 640px) and (max-width: 920px) {
   .pie-pagina .grupo-1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -91,9 +93,6 @@ footer {
       display: none; } }
 
 .simple {
-  display: flex;
-  text-align: center;
-  justify-content: center;
   margin-top: 15px;
   padding: 35px;
   color: #132613;
@@ -109,6 +108,11 @@ footer {
   align-content: center;
   text-align: center;
   font-family: Century Gothic; }
+  .frutas-index .mas-congelados {
+    background-color: #cff5f5;
+    padding: 5px;
+    margin-top: 150px;
+    margin-bottom: 100px; }
 
 .cereales-index {
   display: grid;
@@ -120,6 +124,11 @@ footer {
   align-content: center;
   text-align: center;
   font-family: Century Gothic; }
+  .cereales-index .mas-cereales {
+    background-color: #cff5f5;
+    padding: 5px;
+    margin-top: 150px;
+    margin-bottom: 100px; }
 
 .video {
   display: grid;
@@ -127,11 +136,11 @@ footer {
   background-image: url(../img/fondo1.png);
   text-align: center;
   justify-content: center;
-  align-content: center;
   align-items: center;
   align-self: center;
   margin: 5px;
   padding: 30px;
+  text-decoration: none;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 2fr 2fr;
   grid-template-areas: "blog-uno video-index" "vid-titulo video-index"; }
@@ -139,7 +148,8 @@ footer {
     font-family: Century Gothic; }
 
 .blog-uno {
-  grid-area: blog-uno; }
+  grid-area: blog-uno;
+  text-decoration: none; }
 
 .video-index {
   grid-area: video-index; }
@@ -147,7 +157,7 @@ footer {
 .vid-titulo {
   grid-area: vid-titulo; }
 
-@media (min-width: 640px) and (max-width: 840px) {
+@media (min-width: 640px) and (max-width: 920px) {
   .video {
     display: flex;
     flex-direction: column; }
@@ -240,12 +250,89 @@ footer {
   .vid-4 {
     width: 450px; } }
 
-.prod.index {
-  background-color: white;
-  display: inline; }
+.formulario {
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+  margin: 5px; }
 
-.video {
-  background-color: #b8d8ba; }
+.titulo-form {
+  text-align: center;
+  color: #252525;
+  font-family: ' Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-section .secos {
-  background-color: white; }
+.apell {
+  width: 100px;
+  margin: 5px; }
+
+.apell-2 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3px; }
+
+.email {
+  width: 100px;
+  margin: 5px; }
+
+.email-2 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3px; }
+
+.nombre {
+  width: 100px;
+  margin: 5px; }
+
+.nombre-2 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3px; }
+
+.pais {
+  width: 100px;
+  margin: 5px; }
+
+.pais-2 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3px; }
+
+.celular {
+  width: 100px;
+  margin: 5px; }
+
+.celular-2 {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3px; }
+
+.comentario {
+  width: 100px;
+  margin: 5px; }
+
+.comentario-2 {
+  width: 300px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 5px; }
+
+.enviar {
+  width: 100px;
+  text-align: center;
+  margin-left: 80px; }
+
+.borrar {
+  width: 100px;
+  text-align: center; }
