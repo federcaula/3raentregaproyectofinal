@@ -4,6 +4,12 @@ footer .grupo-1 .box1, .simple {
   align-items: center;
   text-align: center; }
 
+.frutas-index .mas-congelados, .cereales-index .mas-cereales {
+  background-color: #cff5f5;
+  padding: 5px;
+  margin-top: 150px;
+  margin-bottom: 100px; }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -108,11 +114,6 @@ footer {
   align-content: center;
   text-align: center;
   font-family: Century Gothic; }
-  .frutas-index .mas-congelados {
-    background-color: #cff5f5;
-    padding: 5px;
-    margin-top: 150px;
-    margin-bottom: 100px; }
 
 .cereales-index {
   display: grid;
@@ -124,11 +125,6 @@ footer {
   align-content: center;
   text-align: center;
   font-family: Century Gothic; }
-  .cereales-index .mas-cereales {
-    background-color: #cff5f5;
-    padding: 5px;
-    margin-top: 150px;
-    margin-bottom: 100px; }
 
 .video {
   display: grid;
