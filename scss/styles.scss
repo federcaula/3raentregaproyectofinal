@@ -137,8 +137,6 @@ footer{
     background-image: url(../img/fondo2.jpg);
 }
 
-
-
 .frutas-index{
     display: grid;
     margin: 30px;
@@ -331,10 +329,6 @@ footer{
     }
 
 
-
-
-//estilos particulares de comocomprar
-
 //estilos particulares de contacto
 .formulario{
     justify-content: center;
@@ -417,6 +411,43 @@ footer{
         text-align: center;
     }
 
+    //estilos particulares de  productos
+    @media (min-width:740px) and (max-width:920px){
+        .card-group{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            .card{
+                width: auto;
+                height: auto;
+                .card-body{
+                    height: 230px;
+                    justify-content: center;
+                    text-align: center;
+                    align-items: center;
+                }   
+            }
+        }
+    }
+    
+    @media(max-width:740px){
+        .card-group{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(246, 222, 241);
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            .card-body{
+                width: 375px;
+                height: 50%;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+        } 
+    }
 
 
 
